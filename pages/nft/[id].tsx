@@ -4,7 +4,7 @@ function NFTDropPage() {
   return (
     <div className="flex h-screen flex-col lg:grid lg:grid-cols-10">
       {/* LEFT SIDE */}
-
+      {/* Span Across 4 columns */}
       <div className="lg:col-span-4 bg-gradient-to-br from-cyan-800 to-rose-500">
         <div className="flex flex-col items-center justify-center py-2 lg:min-h-screen">
           <div className="rounded-xl bg-gradient-to-br from-yellow-400 to-purple-600  p-2">
@@ -25,9 +25,9 @@ function NFTDropPage() {
       </div>
       {/* Right Side */}
 
-      <div>
+      <div className="flex flex-1 flex-col p-12 lg:col-span-6">
         {/* Header */}
-        <div>
+        <header className="flex items-center justify-between">
           <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-80">
             The
             <span className="font-extrabold underline decoration-pink-600/50">
@@ -40,7 +40,9 @@ function NFTDropPage() {
           <button className="rounded-full bg-rose-400 px-4 py-2 text-white text-xs font-bold lg:px-5 lg:py-3 lg:text-base ">
             Sign In
           </button>
-        </div>
+        </header>
+
+        <hr className="my-2 border" />
         {/* Content */}
         {/* Mint Button */}
       </div>
