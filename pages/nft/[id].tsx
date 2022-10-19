@@ -55,9 +55,14 @@ function NFTDropPage() {
           <h1 className="text-3xl font-bold lg:text-5xl lg:font-extrabold">
             Joel Angel NFT Challenge | NFT DROP
           </h1>
+
+          <p className="pt-2 text-xl text-green-500">12 / 21 NFT'S Claimed</p>
         </div>
 
-        {/* Mint Button */}
+        {/* ================================Mint Button ==============================================*/}
+        <button className="mt-10 h-16 bg-red-600 text-white rounded-full font-bold">
+          Mint NFT (10.01ETH)
+        </button>
       </div>
     </div>
   );
