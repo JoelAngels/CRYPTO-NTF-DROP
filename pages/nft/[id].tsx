@@ -23,7 +23,7 @@ function NFTDropPage() {
           </div>
         </div>
       </div>
-      {/* Right Side */}
+      {/*=========================== Right Side============================= */}
 
       <div className="flex flex-1 flex-col p-12 lg:col-span-6">
         {/* Header */}
@@ -43,7 +43,20 @@ function NFTDropPage() {
         </header>
 
         <hr className="my-2 border" />
-        {/* Content */}
+
+        {/*========================================== Content=================================== */}
+        <div className="mt-10 flex flex-1 flex-col items-center space-y-6">
+          <img
+            className="w-80 object-cover pb-10 lg:h-40"
+            src="https://links.papareact.com/bdy"
+            alt=""
+          />
+
+          <h1 className="text-3xl font-bold lg:text-5xl">
+            Joel Angel NFT Challenge | NFT DROP
+          </h1>
+        </div>
+
         {/* Mint Button */}
       </div>
     </div>
