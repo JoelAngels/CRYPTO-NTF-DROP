@@ -58,7 +58,7 @@ function NFTDropPage() {
 
         <hr className="my-2 border" />
         {address && (
-          <p>
+          <p className="text-center text-sm text-rose-400">
             You're logged with wallet {address.substring(0, 5)}...
             {address.substring(address.length - 5)}
           </p>
