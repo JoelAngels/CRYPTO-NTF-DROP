@@ -1,6 +1,14 @@
 import React from "react";
+import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 
 function NFTDropPage() {
+  //Auth
+
+  const connectWithMetamask = useMetamask();
+  const address = useAddress();
+  const disconnect = useDisconnect();
+
+  console.log(address);
   return (
     <div className="flex h-screen flex-col lg:grid lg:grid-cols-10">
       {/* LEFT SIDE */}
@@ -37,7 +45,12 @@ function NFTDropPage() {
             NFT Market Place
           </h1>
 
-          <button className="rounded-full bg-rose-400 px-4 py-2 text-white text-xs font-bold lg:px-5 lg:py-3 lg:text-base ">
+          <button
+            onClick={() => {
+              connectWithMetamask();
+            }}
+            className="rounded-full bg-rose-400 px-4 py-2 text-white text-xs font-bold lg:px-5 lg:py-3 lg:text-base "
+          >
             Sign In
           </button>
         </header>
@@ -69,4 +82,5 @@ function NFTDropPage() {
 }
 
 export default NFTDropPage;
-//https://www.floreacristian.com , mobile small, medium large, extra large
+//https://www.floreacristian.com , mobile small, medium large, extra large MetaVerse@12023
+// husband denial thrive inform armed december peasant short polar gentle ski foster
