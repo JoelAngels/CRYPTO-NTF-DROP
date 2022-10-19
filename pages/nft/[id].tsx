@@ -19,14 +19,34 @@ function NFTDropPage() {
             <h2 className="text-xl text-gray-300">
               A collection of Joel Angel Apes who live and breath the future
             </h2>
+            <h1>Pair me to this clown</h1>
           </div>
         </div>
       </div>
       {/* Right Side */}
 
-      <div></div>
+      <div>
+        {/* Header */}
+        <div>
+          <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-80">
+            The
+            <span className="font-extrabold underline decoration-pink-600/50">
+              {" "}
+              Joel Angel{" "}
+            </span>
+            NFT Market Place
+          </h1>
+
+          <button className="rounded-full bg-rose-400 px-4 py-2 text-white text-xs font-bold lg:px-5 lg:py-3 lg:text-base ">
+            Sign In
+          </button>
+        </div>
+        {/* Content */}
+        {/* Mint Button */}
+      </div>
     </div>
   );
 }
 
 export default NFTDropPage;
+//https://www.floreacristian.com , mobile small, medium large, extra large
