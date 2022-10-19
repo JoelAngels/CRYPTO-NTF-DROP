@@ -44,14 +44,15 @@ function NFTDropPage() {
             </span>
             NFT Market Place
           </h1>
-
+          {/* If LOGGED In , Disconnect me, otherwise connect me */}
           <button
             onClick={() => {
-              connectWithMetamask();
+              address ? disconnect() : connectWithMetamask();
             }}
             className="rounded-full bg-rose-400 px-4 py-2 text-white text-xs font-bold lg:px-5 lg:py-3 lg:text-base "
           >
-            Sign In
+            {/* If logged in sign out otherwise sign in */}
+            {address ? "Sign Out" : "Sign In"}
           </button>
         </header>
 
