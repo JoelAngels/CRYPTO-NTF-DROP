@@ -45,7 +45,7 @@ function NFTDropPage() {
             </span>
             NFT Market Place
           </h1>
-          {/* If LOGGED In , Disconnect me, otherwise connect me */}
+          {/* If LOGGED In , Disconnect me or sign out, otherwise connect me or sign in*/}
           <button
             onClick={() => {
               address ? disconnect() : connectWithMetamask();
@@ -58,6 +58,7 @@ function NFTDropPage() {
         </header>
 
         <hr className="my-2 border" />
+        {/* Only if they is an address , render out the p tag */}
         {address && (
           <p className="text-center text-sm text-rose-400">
             You're logged with wallet {address.substring(0, 5)}...
@@ -92,3 +93,5 @@ function NFTDropPage() {
 export default NFTDropPage;
 //https://www.floreacristian.com , mobile small, medium large, extra large MetaVerse@12023
 // husband denial thrive inform armed december peasant short polar gentle ski foster
+
+// forward slash world cad
