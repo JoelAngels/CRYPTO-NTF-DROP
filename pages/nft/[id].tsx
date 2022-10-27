@@ -41,7 +41,7 @@ function NFTDropPage() {
             The
             <span className="font-extrabold underline decoration-pink-600/50">
               {" "}
-              Joel Angel{" "}
+              JOEL ANGEL{" "}
             </span>
             NFT Market Place
           </h1>
