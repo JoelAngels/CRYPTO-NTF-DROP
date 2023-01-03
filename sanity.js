@@ -3,7 +3,7 @@ import { createCurrentUserHook, createClient } from "next-sanity";
 import createImageUrlBuilder from "@sanity/image-url";
 
 //The config that connects us to sanity
-
+//NEXT PUBLIC MEANS I DONT MIND EXPOSING THE KEYS
 export const config = {
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,

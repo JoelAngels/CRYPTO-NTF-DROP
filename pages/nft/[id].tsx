@@ -1,3 +1,5 @@
+//the bracket in the nft along side id.tsx means a wild card which means it can be anything
+
 import React from "react";
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 
